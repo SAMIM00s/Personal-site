@@ -1,0 +1,149 @@
+
+    /* For Desktop */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+    .nev-logo{
+        text-align: left;
+    }
+    h1{
+        text-align: right;
+    }
+    .nev-manu{
+        flex-direction: row;
+        justify-content: end;
+      
+    }
+    .nev-manu a{
+        background-color: transparent;
+        padding: 5px 10px;
+        margin: 20px 0;
+    }
+
+/* Weather-protfolio Start from Here */
+
+    .image-top{
+       
+       right: 150px;
+       top: 20px;
+       transition: width 2s, transform 2s ;
+    }
+
+    .image-top:hover{
+        width: 200px;
+    
+    }
+
+    p{ 
+        width: 60%;
+        text-align: center;
+        margin: 5px auto ;
+       
+    }
+
+    .image-bottom{
+       left: 140px;
+       bottom: 20px;
+       transition: width 2s, transform 2s ;
+    }
+
+    .image-bottom:hover{
+        width: 200px;
+    
+    }
+
+    /* Weather-protfolio End from Here */
+
+    /* About Start from Here */
+.aboutme-image{
+    margin-top: 80px ;
+}
+    
+.aboutme-hr{
+    margin-top: 20px;
+  
+}
+
+.about-me p{
+    padding: ;
+    text-align: left;
+}
+
+.about-me p{
+        margin-top: 15px;
+}
+
+/* About End from Here */
+
+
+/* professional-experience Start From Here */
+.professional-experience{
+    padding: 1% 5%;
+}
+/* professional-experience End From Here */
+
+/* Achievement Start From Here */
+
+.contact{
+    padding: 0;
+}
+input{
+    width: 100%;
+
+}
+.contact{
+    padding: 0 20px 0 20px;
+}
+input{
+   
+}
+
+.ap{
+    margin-bottom: 20px;
+    text-align: justify;
+    padding: 0 5px 0 5px;
+}
+.cp{
+    width: 100%;
+}
+
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 200px;
+}
+
+/* Achievement End From Here */
+
+/* Footer Start form Here */
+
+footer{
+    padding: 30px;
+}
+
+.footer-manu a{
+    display: inline;
+    font-size: 1.3rem;
+    margin: 20px;
+}
+
+.footer-description{
+  font-size: 1rem;
+
+}
+/* Footer End form Here */
